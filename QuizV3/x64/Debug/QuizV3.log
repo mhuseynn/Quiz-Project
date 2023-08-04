@@ -1,0 +1,3 @@
+﻿  Quiz.cpp
+C:\Users\Huseyn\source\repos\QuizV3\QuizV3\Functions.h(305,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  QuizV3.vcxproj -> C:\Users\Huseyn\source\repos\QuizV3\x64\Debug\QuizV3.exe
