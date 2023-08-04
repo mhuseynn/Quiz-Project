@@ -1,0 +1,6 @@
+Azerbaycanin paytaxti haradir?|b)Baki|a)Gence|b)Xizi|c)Lenkeran|d)Salyan
+Rusiyanin paytaxti haradir?|c)Moskva|a)Gence|b)Xizi|c)Moskva|d)Salyan
+Turkiyenin paytaxti haradir?|b)Ankara|a)Gence|b)Ankara|c)Mersin|d)Bursa
+Fransanin paytaxti haradir?|b)Paris|a)Berlin|b)Paris|c)Ankara|d)Madrid
+Ispaniyanin paytaxti haradir?|d)Madrid|a)Valencia|b)Istanbul|c)Berlin|d)Madrid
+
