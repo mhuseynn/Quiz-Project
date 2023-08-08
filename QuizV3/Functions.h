@@ -76,14 +76,7 @@ void create_quiz()
 	cout << "Quiz name: ";
 	getline(cin, quiz_name);
 	bool ischeck = true;
-	ofstream fquiz("Quiz names.txt", ios::app);
-	if (!fquiz)
-	{
-		cout << "Error creating the file. Exiting the program." << endl;
-		return;
-	}
-	fquiz << quiz_name << endl;
-	fquiz.close();
+	
 	ofstream file("allQuiz/" + quiz_name + ".txt");
 
 	if (!file)
@@ -222,6 +215,14 @@ void create_quiz()
 		else if (input == 13 && a == 2)
 		{
 			file.flush();
+			ofstream fquiz("Quiz names.txt", ios::app);
+			if (!fquiz)
+			{
+				cout << "Error creating the file. Exiting the program." << endl;
+				return;
+			}
+			fquiz << quiz_name << endl;
+			fquiz.close();
 			break;
 		}
 	}
